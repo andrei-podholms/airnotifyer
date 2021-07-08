@@ -23,7 +23,6 @@ def main():
     args = get_args()
     resp = requests.get('http://{}/json'.format(args.ip))
     data = resp.json()
-    print("
     print('Hello world')
 
     #with daemon.DaemonContext():
